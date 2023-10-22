@@ -1,3 +1,7 @@
-export function isNumeric(num) {
+function isNumeric(num) {
     return !isNaN(num)
 }
+
+module.exports = {
+    isNumeric
+};
